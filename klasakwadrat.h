@@ -1,16 +1,21 @@
-
 class Kwadrat{
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> e0713fbc27ea5cfe1949aa56b4cc49de08bcb54b
+int a;
+int b;
+int c;
 
-double miejscezerowe(unsigned int ktore, myexception myex){
-
-double delta;
-double m1;
-double m2;
+public:
+Kwadrat(int aa, int bb, int cc){
+	a=aa;
+	b=bb;
+	c=cc;
 }
-};
+
+Kwadrat(){
+	a=0;
+	b=0;
+	c=0;
+}
+
